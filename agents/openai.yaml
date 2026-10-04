@@ -1,0 +1,4 @@
+interface:
+  display_name: "REALITY WRAP｜实拍照片视觉改造"
+  short_description: "保留真实摄影主体，以大色块和巨幅插画主导背景，形成完整的空间图形商业视觉"
+  default_prompt: "使用 $reality-wrap 改造我上传的实拍照片，保留主体外观与身份，让大色块和巨幅插画主导可改背景，形成有空间逻辑的完整图形世界。"
