@@ -4,6 +4,20 @@
 
 适用于 Codex，以及能读取 Markdown 技能规范、观察图片并执行图像编辑的 AI 环境。
 
+## 实际效果案例
+
+已收录 **17 张最终版对比拼图**，均为 9:16 竖屏版式，保留原图、改造后及局部细节，不标数字序号。
+
+摄影原图来源：[Pexels](https://www.pexels.com/)（按项目作者提供的来源说明标注）；改造部分由 AI 图像编辑生成。详细来源与素材使用范围见 [摄影来源说明](THIRD_PARTY_NOTICES.md)。
+
+<p>
+  <a href="examples/images/秋湖泊舟_对比.jpg"><img src="examples/images/秋湖泊舟_对比.jpg" width="280" alt="秋湖泊舟：摄影原图与插画改造对比"></a>
+  <a href="examples/images/林桥光带_对比.jpg"><img src="examples/images/林桥光带_对比.jpg" width="280" alt="林桥光带：摄影原图与插画改造对比"></a>
+  <a href="examples/images/胡同牵手_岁月花墙_对比.jpg"><img src="examples/images/胡同牵手_岁月花墙_对比.jpg" width="280" alt="胡同牵手：摄影原图与插画改造对比"></a>
+</p>
+
+[查看全部效果案例与完整拼图](examples/README.md)
+
 ## 安装到 Codex
 
 将仓库克隆到一个新的技能目录；已有同名技能时请先核对版本，不要直接覆盖。
@@ -58,8 +72,8 @@ git clone https://github.com/Alexzzyk/reality-wrap.git "${CODEX_HOME:-$HOME/.cod
 
 没有编辑工具时可以输出可执行 Prompt，并明确尚未生成。提示词中的主体锁定是目标，不能保证逐像素保留。人脸、商品标签、牌匾文字、窗口等仍须对照检查；严格保真需保留原主体图层及可验证的合成流程。
 
-本包不附带固定参考图片；可使用你有权使用的实拍照片和风格参考。示例是方法演示，未冒充实际生成验收。
+本包不附带固定风格参考图片；可使用你有权使用的实拍照片和风格参考。references/examples.md 为假设输入的提示词演示；examples/ 为实际生成的对比案例，二者分别标示。
 
 ## License
 
-技能文档与配置采用 [MIT License](LICENSE)。输入照片、独立参考图和生成结果的使用权不由此许可证授予。
+技能文档与配置采用 [MIT License](LICENSE)。输入照片、独立参考图、案例图片和生成结果的使用权不由此许可证授予。案例素材说明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
