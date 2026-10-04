@@ -1,6 +1,6 @@
 # 摄影来源与案例素材说明
 
-摄影原图来源：[Pexels](https://www.pexels.com/)。来源按项目作者提供的信息标注；本次素材未附单张照片页面与摄影师姓名，未逐张独立核验，不补造作者或链接。
+摄影原图来源：[Pexels](https://www.pexels.com/)。
 
 Pexels 摄影素材的使用条件见 [Pexels License](https://www.pexels.com/license/)。本项目及案例改造与 Pexels、照片中的人物或品牌无合作或背书关系。
 
